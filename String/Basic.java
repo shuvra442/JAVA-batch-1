@@ -5,6 +5,10 @@ package String;
 public class Basic {
     public static void main(String[] args) {
 
+//        char []in ={'a','b','c'};
+//
+//        String str1="abc";
+
         String str="abcd"; // String class  implements CharSequence interface and this interface is used to represent sequence of characters.
 
 //        How to represent String in java
@@ -25,5 +29,9 @@ public class Basic {
         String str2="Biswajit";
         String str3 = str2.concat("Sanjana");
         System.out.println(str3);
+
+//        2. way
+
+        String str4 = new String("skcbsdjk");
     }
 }
