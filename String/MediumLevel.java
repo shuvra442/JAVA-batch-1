@@ -77,7 +77,35 @@ public class MediumLevel {
 //        String str1 = "Biswajit";
 //        System.out.println(str1.concat("mahadev"));
 
+//        ========================= rest of methods on string =========================
+        //1. substring()
+//        String str1 = "sanjana";
+//        System.out.println(str1.substring(2));
+//
+//        System.out.println(str1.substring(1, 7));
 
+//        String str1 = "";
+//        String str2 = "Mahadev";
+//        System.out.println(str1.isEmpty()); // true
+//        System.out.println(str2.isEmpty()); // false
+
+        // indexOf
+//        String str1 = "shuvra patpra";
+//        System.out.println(str1.indexOf('p'));
+//
+//        // lastIndexOf
+//        System.out.println(str1.lastIndexOf('p'));
+
+        // replace
+//        String str1 = "shuvra patpra";
+//        System.out.println(str1.replace('p', 'a'));
+//
+////         replaceAll
+//        String str2 = "shuvra patpra";
+//        System.out.println(str1.replaceAll("p", "a"));
+
+//        System.out.println(str2.toUpperCase());
+//        System.out.println(str2.toLowerCase());
 
     }
 }
