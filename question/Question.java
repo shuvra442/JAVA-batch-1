@@ -4,8 +4,8 @@ import com.sun.security.jgss.GSSUtil;
 
 public class Question {
     public static void main(String[] args) {
-        String num = "Hello, world";
-        String target = "l";
+//        String num = "Hello, world";
+//        String target = "l";
 
 //        System.out.println(reversee(num));
 //        StringBuffer stringBuffer = new StringBuffer(num).reverse();
@@ -20,7 +20,7 @@ public class Question {
 //        }
 
         //3 ...
-        numberOfOccurences(num, target);
+//        numberOfOccurences(num, target);
 
     }
 
@@ -37,15 +37,15 @@ public class Question {
 //
 //    }
 
-    public  static void numberOfOccurences(String num, String target) {
-        int count = 0;
-        for (int i = 0; i < num.length(); i++) {
-            if (num.charAt(i) == target.charAt(0)) {
-                count++;
-            }
-        }
-        System.out.println(count);
-    }
+//    public  static void numberOfOccurences(String num, String target) {
+//        int count = 0;
+//        for (int i = 0; i < num.length(); i++) {
+//            if (num.charAt(i) == target.charAt(0)) {
+//                count++;
+//            }
+//        }
+//        System.out.println(count);
+//    }
 
 
 }
