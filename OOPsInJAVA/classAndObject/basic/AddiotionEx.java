@@ -1,7 +1,7 @@
-package OOPsInJAVA.basic;
+package OOPsInJAVA.classAndObject.basic;
 
-class AddiotionEx {
-    private void add(int a, int b){
+public class AddiotionEx {
+    protected void add(int a, int b){
         int c = a + b;
         System.out.println("The result is ::" +c);
     }

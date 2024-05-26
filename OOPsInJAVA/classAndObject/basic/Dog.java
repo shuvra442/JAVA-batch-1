@@ -1,4 +1,4 @@
-package OOPsInJAVA.basic;
+package OOPsInJAVA.classAndObject.basic;
 
 
 class Behaviour {
