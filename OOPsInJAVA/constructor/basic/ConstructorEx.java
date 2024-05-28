@@ -1,13 +1,12 @@
 package OOPsInJAVA.constructor.basic;
 
-import org.w3c.dom.ls.LSOutput;
 
 public class ConstructorEx {
 
     int a; // a=10 //using this keyword
     int b; // b=20 //using this keyword
 
-    ConstructorEx(){   /*  constructor */  /* default constructor */
+    ConstructorEx() {   /*  constructor */  /* default constructor */
         System.out.println("Hello i'm constructor");
     }
 
@@ -30,8 +29,8 @@ public class ConstructorEx {
         ConstructorEx constructorEx1 = new ConstructorEx(); // 1.
 
         ConstructorEx constructorEx2 = new ConstructorEx(10,20); //  2.
-        System.out.println(constructorEx2.a);
-        System.out.println(constructorEx2.b);
+        System.out.println(constructorEx2.a); // 10
+        System.out.println(constructorEx2.b); // 20
 
         ConstructorEx constructorEx3 = new ConstructorEx(10,20,'3'); // 3.
 
