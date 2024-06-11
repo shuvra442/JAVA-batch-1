@@ -2,15 +2,20 @@ package error_exception;
 
 public class CustomException {
 
+    private static void vailidInput(int input) throws MyException   {
+
+        if(input < 0){
+            throw new MyException("Input must be positive");
+        }
+    }
 
     public static void main(String[] args)  {
-        try{
-            throw new MyException("It's not possible to divide any number by 0");
 
-        } catch (MyException e){
-            System.out.println(e.getMessage());
-        } finally {
-            System.out.println("xjbv");
+        try {
+            vailidInput(-1);
+
+        } catch (MyException r){
+            System.out.println(r.getMessage());
         }
     }
 }
